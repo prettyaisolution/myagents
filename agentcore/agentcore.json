@@ -12,7 +12,7 @@
       "name": "MyAgent",
       "build": "Container",
       "entrypoint": "main.js",
-      "codeLocation": "app/MyAgent/",
+      "codeLocation": "../MyAgent/",
       "runtimeVersion": "NODE_22",
       "networkMode": "PUBLIC",
       "protocol": "HTTP"
@@ -21,7 +21,7 @@
       "name": "MyAgent2",
       "build": "Container",
       "entrypoint": "main.js",
-      "codeLocation": "app/MyAgent2/",
+      "codeLocation": "../MyAgent2/",
       "runtimeVersion": "NODE_22",
       "networkMode": "PUBLIC",
       "protocol": "HTTP"
